@@ -1,0 +1,36 @@
+.containerLayout {
+    display: flex;
+    min-height: 100vh;
+    padding: 5px 0;
+    background-color: #F9F6F4;
+}
+
+.rightContainer {
+    height: 100%;
+    width: 78%;
+    margin: 0 20px 20px 0;
+}
+
+.leftContainer {
+    padding-top: 30px;
+    height: auto;
+    width: 22%
+}
+
+.layout {
+    /* position: absolute; */
+    /* top: 118px;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+
+.containers {
+    min-height: 80vh;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: white;
+    height: 100%;
+    position: relative;
+    padding: 20px 40px;
+}

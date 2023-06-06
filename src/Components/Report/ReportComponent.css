@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Francois+One&family=Frank+Ruhl+Libre&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Francois+One&family=Frank+Ruhl+Libre&display=swap');
+.headerReport {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reportTitle {
+    font-family: 'Francois One';
+    font-style: nomal;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.search-hd {}
+
+.ltsReport {
+    background-color: white;
+    color: orange;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid orange;
+}
+
+.ltsReport:hover {}
+
+.reportYearContainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.yearOption {
+    margin-right: 20px;
+}
+
+.btn__clickSearchReport {
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+}
+
+.tableReport {
+    width: 100%;
+}
+
+.tableYearReport .tableReport .responstable {
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.tableLosses {
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+}
+
+.tableProfit {
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+}
+
+.tableStatus {
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+}
+
+
+/* Phân trang */
+
+.paginate-TableReportYear {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}

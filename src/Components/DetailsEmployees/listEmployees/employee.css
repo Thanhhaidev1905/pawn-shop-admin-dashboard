@@ -1,0 +1,127 @@
+:root {
+    --color-text: #000000;
+    --color-all: #ad00ff;
+    --color-active: #14a87b;
+    --color-stop: #f65151;
+}
+
+.employee_heading {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 23px;
+}
+
+.employee_button {
+    width: 187px;
+    height: 64px;
+    background: orange;
+    border-radius: 10px;
+    border: 0px solid;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+}
+
+.statusStore {
+    padding: 30px 0;
+    margin-top: 14px;
+    background: rgba(217, 217, 217, 0.3);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.statusStore span {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: var(--color-text);
+}
+
+.radioItem {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.radioItem .radio-all>span {
+    color: var(--color-all);
+}
+
+.radioItem .radio-active>span {
+    color: var(--color-active);
+}
+
+.radioItem .radio-stop>span {
+    color: var(--color-stop);
+}
+
+.statusStore .fromstatusStore p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.searchinput input {
+    width: 300px;
+    height: 38px;
+    background: rgba(255, 255, 255, 0.34);
+    opacity: 0.6;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.statusStore .buttonsearch button {
+    width: 100px;
+    height: 38px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #50c2da;
+    border-radius: 10px;
+    border: none;
+    color: var(--color-text);
+}
+
+.tableEmployee {
+    width: 100%;
+}
+
+.MuiTableBody_root-itemLast {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.box_employee ._table-Listemoloyess {
+    width: 100%;
+    margin: 0;
+}
+
+.box_employee .responstable {
+    font-size: 16px;
+}
+
+
+/* Phân trang */
+
+.paginate-listemployees {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
